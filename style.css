@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(25, 153, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+
+.main {
+    margin: auto;
+    width:  75%;
+    text-align: center;
+    top: 50px;
+    position: relative;
+}
+
+.main p {
+    font-size: 90px;
+}
+
+.main ul {
+        list-style-type: none;
+        font-weight: 600;
+}
+
+.main ul li a {
+        text-decoration: none;
+}
+
+.main ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+.animals:hover {
+    font-size: 50px;
+}
+.name:hover {
+  animation-name: CC ;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes CC {
+    0% {
+        color: black;   
+    }
+    20% {
+        color: red;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: pink;
+    }
+    80% {
+        color: darkslategrey;
+    }
+    100% {
+        color: black;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+     
+    body {
+        background-color: chartreuse;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+    
+    
+    .main {
+        margin: auto;
+        width:  75%;
+        text-align: center;
+        top: 50px;
+        position: relative;
+    }
+    
+    .main p {
+        font-size: 40px;
+    }
+    
+    .main ul {
+            list-style-type: none;
+            font-weight: 600;
+    }
+    
+    .main ul li a {
+            text-decoration: none;
+    }
+    
+    .main ul li a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    .animals:hover {
+        font-size: 50px;
+    }
+    .name:hover {
+      animation-name: CC ;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes CC {
+        0% {
+            color: black;   
+        }
+        20% {
+            color: red;
+        }
+        40% {
+            color: blue;
+        }
+        60% {
+            color: pink;
+        }
+        80% {
+            color: darkslategrey;
+        }
+        100% {
+            color: black;
+        }
+    }
+
+}
+
+
+
+
